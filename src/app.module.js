@@ -14,8 +14,7 @@ const appModule = angular
 		'ui.router',
 		// application specific modules
 		'app.header',
-		'app.home',
-		'app.user'
+		'app.home'
 	]);
 
 export default appModule;

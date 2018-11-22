@@ -80,7 +80,11 @@ const config = {
 	devServer: {
 		port: 3000,
 		contentBase: './src/',
-		historyApiFallback: true
+		historyApiFallback: true,
+		headers: { 
+			"Access-Control-Allow-Origin": "*",
+			'X-Frame-Options': 'allow-from *'
+		}
 	}
 };
 
