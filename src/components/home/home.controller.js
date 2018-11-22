@@ -6,7 +6,7 @@ export default class HomeController {
 	}
 
 	$onInit = () => {
-		this.heading = 'Welcome to AngularJS ES6 Starter-Kit';
+		this.heading = ':D';
 		this.$log.info('Activated Home View.');
 	};
 }
