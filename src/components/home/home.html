@@ -1,24 +1,21 @@
 <div class="container">
-	<h1>{{$ctrl.heading}}</h1>
-	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-	  <div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <iframe width="560" height="315"  src="https://www.youtube.com/embed/icuhtodZJvI" frameborder="0" allowfullscreen></iframe>
-	    </div>
-	    <div class="carousel-item">
-	      <iframe width="560" height="315"  src="https://en.wikipedia.org/wiki/Brazil" frameborder="0" allowfullscreen></iframe>
-	    </div>
-	    <div class="carousel-item">
-	      <iframe width="560" height="315"  src="https://www.youtube.com/embed/icuhtodZJvI" frameborder="0" allowfullscreen></iframe>
-	    </div>
+		
+	<div style="visibility: hidden">
+	  <div class="md-dialog-container" id="myDialog">
+	    <md-dialog layout-padding>
+	      <h2>Pre-Rendered Dialog</h2>
+	      <p>
+	        This is a pre-rendered dialog, which means that <code>$mdDialog</code> doesn't compile its
+	        template on each opening.
+	        <br/><br/>
+	        The Dialog Element is a static element in the DOM, which is just visually hidden.<br/>
+	        Once the dialog opens, we just fetch the element from the DOM into our dialog and upon close
+	        we restore the element back into its old DOM position.
+	      </p>
+	    </md-dialog>
 	  </div>
-	  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
 	</div>
+
+
+	<h1>{{$ctrl.heading}}</h1>
 </div>
