@@ -2,6 +2,7 @@
 $fa-font-path: '~font-awesome/fonts/';
 
 @import '../../node_modules/angular-material/angular-material.css';
+
 @import '~font-awesome/scss/font-awesome';
 
 /*===========================================
@@ -10,10 +11,6 @@ $fa-font-path: '~font-awesome/fonts/';
 @import 'vars/typography';
 @import 'vars/body';
 
-/*===========================================
-========= Loading Bootstrap Styles ==========
-=============================================*/
-@import '~bootstrap/scss/bootstrap';
 
 /*===========================================
 ========= Loading Customize Styles ==========

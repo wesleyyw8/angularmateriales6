@@ -1,7 +1,7 @@
 {
-  "name": "angularjs-es6-starter-kit",
+  "name": "angularjs-es6-google-material",
   "version": "2.0.0",
-  "description": "AngularJS aka Angular 1, ES6, Webpack Starter Kit Project which includes Bootstrap 4 also.",
+  "description": "angularjs google material es6",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --open",
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "url": "https://github.com/hardikkaji/angularjs-es6-starter-kit.git"
+    "url": "https://github.com/wesleyyw8/angularmateriales6.git"
   },
   "keywords": [],
   "author": "Hardik Kaji",
@@ -42,9 +42,6 @@
     "angular-material": "^1.1.10",
     "angular-messages": "^1.7.5",
     "angular-ui-router": "^1.0.3",
-    "bootstrap": "^4.1.1",
-    "font-awesome": "4.7.0",
-    "jquery": "^3.2.1",
-    "popper.js": "^1.14.3"
+    "font-awesome": "4.7.0"
   }
 }
